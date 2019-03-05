@@ -151,6 +151,9 @@ main{
   margin: 0 1rem;
   width: 18rem;
   height: 20.78461rem; /* (width * 2)/sqrt(3) */
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
   transform: rotate(120deg);
   visibility: hidden;
   background: green;
@@ -164,6 +167,9 @@ main{
 .hexagon-inside{
   width: 100%;
   height: 100%;
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
   transform: rotate(-60deg);
   overflow: hidden;
   visibility: hidden;
@@ -171,6 +177,9 @@ main{
 .hexagon-image{
   width: 100%;
   height: 100%;
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
   transform: rotate(-60deg);
   background-position: center;
   background-size: auto 100%;
@@ -450,17 +459,20 @@ form input[type="submit"]{
   color: #d7fcf5;
 
 }
-input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
   color: #bebebe;
   font-size: 1.2rem;
   font-family: "Lato-Regular" , sans-serif;
 }
-input::-moz-placeholder,textarea::-moz-placeholder{
+input::-moz-placeholder,
+textarea::-moz-placeholder{
   color: #bebebe;
   font-size: 1.2rem;
   font-family: "Lato-Regular" , sans-serif;
 }
-input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{
   color: #bebebe;
   font-size: 1.2rem;
   font-family: "Lato-Regular" , sans-serif;
