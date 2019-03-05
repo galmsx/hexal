@@ -16,7 +16,7 @@ header{
   position: fixed;
   height: 6.3rem;
   width: 100%;
-  top:0;
+  top: 0;
   z-index: 100;
   background-color: #323232;
 }
@@ -39,9 +39,9 @@ nav{
 }
 .nav-el{
   width: 6.4rem;
+  margin: 0 1.6rem;
   overflow: visible;
   white-space: nowrap;
-  margin: 0 1.6rem;
   text-align: center;
 }
 nav :nth-child(1) a{
@@ -123,17 +123,14 @@ main{
   margin-right: auto;
   margin-left: auto;
   overflow: visible;
-
-
 }
 .hex-row{
+  width:100%;
+  height: 10.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
-  height: 10.4rem;
   overflow: visible;
-
 }
 .hex-row:first-child{
   margin-bottom: 6.4rem;
@@ -151,13 +148,13 @@ main{
   background-color: #e4e9eb;
 }
 .hexagon{
+  margin: 0 1rem;
   width: 18rem;
   height: 20.78461rem; /* (width * 2)/sqrt(3) */
   transform: rotate(120deg);
   visibility: hidden;
   background: green;
   overflow: hidden;
-  margin: 0 1rem;
 }
 .hexagon:hover{
   position: relative;
@@ -179,7 +176,6 @@ main{
   background-size: auto 100%;
   visibility: visible;
 }
-
 .slider{
   margin-top:11.1rem;
   margin-left: auto;
@@ -187,7 +183,6 @@ main{
   height: 2.9rem;
   width: 96rem;
 }
-
 .indicator-wraper{
   height: 0.6rem;
   width: 5.1rem;
@@ -339,18 +334,18 @@ main{
   width: 2.4rem;
 }
 .social .linkedin{
-  background-image: url("./assets/about/linkedin.png");
-  background-size: cover;
   display: inline-block;
   height: 2.4rem;
   width: 2.5rem;
+  background-image: url("./assets/about/linkedin.png");
+  background-size: cover;
 }
 .social .dribbble{
-  background-image: url("./assets/about/dribbble.png");
-  background-size: cover;
   display: inline-block;
   height: 2.4rem;
   width: 2.4rem;
+  background-image: url("./assets/about/dribbble.png");
+  background-size: cover;
 }
 .social :hover{
   position: relative;
@@ -373,10 +368,10 @@ footer{
 .topline{
   height: 0.1rem;
   width: 96rem;
-  background-color: #2b2b2b;
   margin-top: 1.3rem;
   margin-left: auto;
   margin-right: auto;
+  background-color: #2b2b2b;
 }
 footer .label{
   height: 5.1rem;
