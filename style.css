@@ -94,7 +94,7 @@ main{
   overflow: auto;
 }
 .wrap-portfolio{
-  width: 102rem;
+  width: auto;
   margin: 0 auto;
   height: 100vh;
 
@@ -118,11 +118,11 @@ main{
 }
 .hex-container{
   height: 44rem;
-  width: 98rem;
+  width: auto;
   margin-top: 12.9rem;
   margin-right: auto;
   margin-left: auto;
-  overflow: visible;
+  overflow-x: visible;
 }
 .hex-row{
   width:100%;
@@ -130,7 +130,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: visible;
+  overflow-y: visible;
 }
 .hex-row:first-child{
   margin-bottom: 6.4rem;
@@ -139,7 +139,7 @@ main{
   margin-top: 6.4rem;
 }
 .hex-row :last-child{
-  margin-right: 2.5rem;
+  margin-right: 2.7rem;
 }
 .side-line{
   margin: 0 1rem;
