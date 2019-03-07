@@ -261,9 +261,23 @@ main{
   background-color: #2eb398;
 }
 .about-wrapper{
+  position: relative;
   margin: 0 auto;
   width: 102rem;
   height: 100%;
+}
+.about-line{
+  position: absolute;
+  top: 1.3rem;
+  height: 31.6rem;
+  width: 0.1rem;
+  background-color: #219d84;
+}
+.about-line.left{
+  left: 9.9rem
+}
+.about-line.right{
+  right: 9.9rem;
 }
 .hex-face-container{
   display: inline-flex;
@@ -273,6 +287,7 @@ main{
   margin-left: 12rem;
   align-items: center;
   overflow: visible;
+  vertical-align: center;
 }
 .hex-face-container .hexagon{
   margin: 0;
@@ -374,13 +389,17 @@ footer{
   overflow: auto;
 
 }
-.topline{
+.topline,
+.bottomline{
   height: 0.1rem;
   width: 96rem;
   margin-top: 1.3rem;
   margin-left: auto;
   margin-right: auto;
   background-color: #2b2b2b;
+}
+.bottomline{
+  margin-top: 5.3rem;
 }
 footer .label{
   height: 5.1rem;
